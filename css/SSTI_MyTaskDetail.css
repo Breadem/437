@@ -1,0 +1,91 @@
+body{
+	background-color: #f4f7ed;
+}
+a{
+	color: inherit;
+}
+.Project_Title{
+  text-align: left;
+  width: 100%;
+  height: 80px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.Project_Top{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.Project_People{
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: left;
+	padding: 10px 20px;
+}
+.Project_People h4{
+	font-size: 22px;
+}
+.Project_People h5{
+	margin:10px 50px;
+	line-height: 19px;
+	font-size: 19px;
+}
+.CreateProject_Button{
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px 100px;
+    color: #fff;
+    background-color: #e84e4e;
+}
+.yes{
+	margin: 0 0 4px 10px;
+	height: 19px;
+	background-color: #e84e4e;
+}
+.no{
+	margin: 0 0 4px 10px;
+	height: 19px;
+}
+.audit{
+	margin: 0 0 4px 10px;
+	height: 19px;
+	background-color: #fff;
+	color:#797575;
+	border: 1px solid #ccc;
+}
+.Project_Name{
+    margin: 15px 0;
+    height: 40px;
+}
+.Project_Introduce{
+	margin-top: 25px !important;
+	height: 250px !important;
+}
+.Fox_AddFileDiv{
+	float:  left;
+	border: 0px !important;
+	background-color: #e84e4e !important;
+  }
+.Fox_AddFile{
+margin-top: 5px;
+	width: 100px;
+	float: left;
+opacity: 0;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	margin-top: -32px;
+	width: 100px;
+	height: 40px;
+	text-align: right;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	background: none repeat scroll 0 0 transparent;
+	cursor: inherit;
+	display: block;
+}

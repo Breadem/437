@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fox</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/Public.css" rel="stylesheet">
+    <link href="../css/SSTI_MyMessage.css" rel="stylesheet">
+    <link href="../img/SSTI_Conputer.png" rel="shortcut icon">
+    <script type="text/javascript" src="../js/public/jquery.js"></script>
+    <script type="text/javascript" src="../js/Public.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="SSTI_Person.html">
+              <img src="../img/SSTI_Logo.png" style="width: 35px;" alt="Logo">
+            </a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="SSTI_Person.html">首页</a></li>
+              <li><a href="SSTI_CreateProject.html">创建课程</a></li>
+              <li><a href="SSTI_MyReport.html">周报</a></li>
+              <li class="active"><a href="SSTI_MyMessage.html">个人设置</a></li>
+            </ul>
+            <a href="../index.html"><img class="icon" src="../img/icon-off.png"></a>
+            <img class="icon" src="../img/icon-bell.png"/>
+            <input type="text" class="Fox_SearchInput" autocomplete="off" placeholder="Search" data-provide="typeahead">
+            <img class="icon" id="Fox_SearchButton" src="../img/icon-search.png"/>
+  
+          </div>
+        </div>
+      </nav>
+
+    <div class="Fox_Content">
+      <div class="container">
+        <div class="starter-template">
+            <div class="Project_Title">
+                <h3 style="font-weight: bold;display: inline;line-height: 80px;font-weight: bold;">个人设置</h3>
+            </div>             
+
+
+            <div class="Fox_MyContent">
+                <div class="avatar-wrapper">
+                    <img class="avatar" src="../img/SSTI_img.png">
+                </div>
+                <p class="Fox_P">选择新头像</p>
+                <div style="width:100%;float:left;padding:30px 30px;">
+                    <div class="Fox_P_Div">
+                        <span>姓名：</span>
+                        <input type="input" placeholder="迪丽热巴"/>
+                    </div>
+                    <div class="Fox_P_Div">
+                        <span>班级：</span>
+                        <input type="input" placeholder="15互联网G5-3"/>
+                    </div>
+                    <div class="Fox_P_Div">
+                        <span>性别：</span>
+                        <select class="Fox_select">
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </div>
+                    <div class="Fox_P_Div">
+                        <span>邮箱：</span>
+                        <input type="input" placeholder="1035947685@qq.com"/>
+                    </div>   
+                    <div class="Fox_P_Div">
+                        <span>个性签名：</span>
+                        <textarea class="Fox_MyIndividuality" placeholder="好好学习，天天向上。响应党的号召！！！"></textarea>
+                    </div>
+                </div>
+                    <div style="width: 100%;float: left;text-align: center;margin-top: 50px;">
+                        <a href="../html/SSTI_Person.html"><span class="CreateProject_Button">保存</span></a>
+                    </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

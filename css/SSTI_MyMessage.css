@@ -1,0 +1,70 @@
+body{
+	background-color: #f4f7ed;
+}
+a{
+	color: inherit;
+}
+span{
+    font-size: 20px;
+    float: left;
+}
+input{
+    height: 30px;
+    float: left;
+}
+.Project_Title{
+  text-align: left;
+  width: 100%;
+  height: 80px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.Fox_MyContent{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 20px 20px;
+}
+.avatar-wrapper{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+.avatar{
+    width: 100px;
+}
+.Fox_P{
+    margin-top: 40px;
+    margin-left: 120px;
+    color: #4ea5ad;
+    cursor: pointer;
+    text-align: left;
+}
+.Fox_P_Div{
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+}
+.Fox_MyIndividuality{
+    width: 400px;
+    height: 90px;
+    float: left;
+}
+.Fox_select{
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+.CreateProject_Button{
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px 100px;
+    float: none;
+    color: #fff;
+    background-color: #e84e4e;
+}

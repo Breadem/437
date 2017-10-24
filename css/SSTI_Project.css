@@ -1,0 +1,56 @@
+body{
+	background-color: #f4f7ed;
+}
+a{
+	color: inherit;
+}
+.Project_Title{
+  text-align: left;
+  width: 100%;
+  height: 80px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.glyphicon-user{
+	float: right;
+	font-size: 25px;
+	margin-right: 10px;
+	line-height: 80px;
+}
+.Project_PeopleNumber{
+	float: right;
+	line-height: 90px;
+	font-size: 16px;
+}
+.Project_Top{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.Project_People{
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: left;
+	padding: 10px 20px;
+	border-bottom: 1px solid #e6e5e5;
+}
+.Project_People h4{
+	font-size: 22px;
+}
+.Project_People h5{
+	margin:10px 50px;
+	line-height: 19px;
+	font-size: 19px;
+}
+.yes{
+	margin: 0 0 4px 10px;
+	height: 19px;
+	background-color: #e84e4e;
+}
+.no{
+	margin: 0 0 4px 10px;
+	height: 19px;
+}

@@ -1,0 +1,146 @@
+body{
+  background-color: #f4f7ed;
+}
+.navbar-fixed-top{
+  position: fixed;
+}
+.Fox_Content{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.Project_Title{
+  text-align: left;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.form-control{
+  float: left;
+  width: 60%;
+  height: 40px;
+}
+.Project_Name{
+  margin: 15px 0;
+  height: 40px;
+}
+.Project_Introduce{
+  height: 150px !important;
+}
+.Project_Choice{
+  text-align: left;
+  width: 100%;
+  font-size: 21px;
+  float: left;
+}
+.Choice_All{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  line-height: 40px;
+  background-color: #e84e4e;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 15px;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 0 1px;
+}
+.Project_Members{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.Project_Members label{
+  width: 90px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  color: #777;
+  letter-spacing: 1px;
+  margin: 15px 24px;
+  transition:all .2s;
+  cursor: pointer;
+}
+
+.Project_HaveChoise {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.Project_HaveChoise label{
+  width: 90px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  color: #777;
+  letter-spacing: 1px;
+  margin: 15px 24px;
+  transition:all .2s;
+  cursor: pointer;
+}
+.Project_HaveChoise label:hover{
+  background-image: url("../img/SSTI_Delect.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.Fox_SearchInput{
+  width: 0px;
+  height: 30px;
+  line-height: 40px;
+  float: right;
+  border-left:0px;
+  border-top:0px;
+  border-right:0px;
+  border-bottom:1px solid #fff;
+  background: #222;
+  color: #fff;
+  outline: none;
+  margin-top: 10px;
+  transition: all .2s;
+}
+.CreateProject_Button{
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  padding: 10px 100px;
+  color: #fff;
+  background-color: #e84e4e;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .ovrly24 {
+      margin: 20px 40px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .ovrly24 {
+      margin: 20px 60px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ovrly24 {
+      margin: 20px 40px;
+    }
+}

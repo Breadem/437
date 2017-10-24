@@ -1,0 +1,13 @@
+.logo{
+	font-weight: bold;
+}
+.IsLogin_signup{
+	text-align: center;
+}
+.container{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}

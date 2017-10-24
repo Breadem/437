@@ -1,0 +1,107 @@
+body{
+	background-color: #f4f7ed;
+}
+.SSTI_projectsName{
+	height: 20%;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.Fox_Label{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ovrly24 {
+    width: 222px;
+    height: 155px;
+    float: left;
+    margin: 20px 27px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+}
+.projectImg{
+    position: relative;
+    width: 25%;
+    top: calc(50% - 26px);
+    left: 0;
+}
+.ovrly24 .ovrly {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.ovrly24 .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.ovrly24 .buttons .fa {
+    background-color: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.ovrly24:hover .ovrly {
+    /*-webkit-box-shadow: 0 0 10px 100px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 0 10px 100px rgba(0, 0, 0, 0.5) inset;*/
+    background:rgba(0,0,0,.2);
+}
+.ovrly24:hover .buttons .fa {
+    opacity: 1;
+}
+.SSTI_serch{
+    position: relative;
+    width: 70%;
+    left: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ovrly24 {
+    	margin: 20px 40px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .ovrly24 {
+    	margin: 20px 60px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ovrly24 {
+    	margin: 20px 40px;
+    }
+}
